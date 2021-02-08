@@ -1,0 +1,16 @@
+<h1>Books</h1>
+  <% @book.each do |book| %>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+    </tr>
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.body %></td>
+    </tr>
+  </table>
+  <%= link_to "Show",book_path(book) %>
+  <%= link_to "Edit",edit_book_path(book) %>
+  <%= link_to "Destroy",books_path,method: :delete,"date-confirm" => "Are you sure？" %>
+  <% end %>
