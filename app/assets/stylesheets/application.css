@@ -13,3 +13,101 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+.top-word {
+  margin-left: 30px;
+}
+
+.top-content {
+  margin-left: 45px;
+  line-height: 65px;
+}
+
+.link-start {
+  margin-left: 45px;
+}
+
+.index-contents {
+  margin-left: 30px;
+}
+
+td {
+  padding-right: 10px;
+  padding-bottom: 8px;
+}
+
+.create-book {
+  display: block;
+}
+
+.edit-contents {
+  margin-left: 30px;
+}
+
+.update-book {
+  display: block;
+}
+
+.link-show {
+  border-right: 1px solid black;
+  display: inline-block;
+  color: black;
+  padding-right: 5px;
+}
+
+.notifications {
+  color: green;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.title-body {
+  margin-left: 30px;
+}
+
+.title {
+  display: inline-block;
+}
+
+.book-title {
+  display: inline-block;
+}
+
+.Body-record {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.body {
+  display: inline-block;
+}
+
+.book-body {
+  display: inline-block;
+}
+
+.link-tag {
+  margin-left: 20px;
+}
+
+.link-edit {
+  border-right: 1px solid black;
+  display: inline-block;
+  color: black;
+  padding-right: 5px;
+}
+
+.link-back {
+  display: inline-block;
+  color: black;
+}
